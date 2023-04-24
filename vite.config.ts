@@ -24,12 +24,12 @@ export default defineConfig({
       '@': path.resolve(__dirname, 'src'),
     },
   },
-  css: {
-    preprocessorOptions: {
-      scss: {
-        additionalData: '@import "@/assets/style/mian.scss";',
-      },
-    },
+  css:{
+    preprocessorOptions:{
+      scss:{
+        additionalData:'@import "@/assets/style/mian.scss";'
+      }
+    }
   },
   //启动服务配置
   server: {
@@ -37,7 +37,7 @@ export default defineConfig({
     port: 8000,
     open: true,
     https: false,
-    proxy: {},
+    proxy: {}
   },
   // 生产环境打包配置
   //去除 console debugger
