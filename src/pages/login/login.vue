@@ -15,7 +15,7 @@ import { useMainStore } from "@/store/index";
 const mainStore = useMainStore();
 const actbTN = () => {
   console.log(import.meta.env);
-  mainStore.insertPost("ZHANGSAN");
+  mainStore.insertPost("ZHANGSAN1");
 };
 const updateName = () => {
   // $patch 修改 store 中的数据
