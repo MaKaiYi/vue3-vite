@@ -14,7 +14,7 @@ import { useMainStore } from "@/store/index";
 
 const mainStore = useMainStore();
 const actbTN = () => {
-  console.log(import.meta.env);
+  console.log(import.meta.env123123);
   mainStore.insertPost("ZHANGSAN");
 };
 const updateName = () => {
