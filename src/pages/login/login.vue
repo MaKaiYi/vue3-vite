@@ -10,7 +10,7 @@
 </template>
 
 <script setup lang="ts">
-import { useMainStore } from "@/store/index";
+import { useMainStore } from "@/store/index3";
 
 const mainStore = useMainStore();
 const actbTN = () => {
