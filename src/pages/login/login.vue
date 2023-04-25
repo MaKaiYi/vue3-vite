@@ -24,5 +24,6 @@ const updateName = () => {
   });
   console.log("rebase tEST1");
   console.log("rebase tEST2");
+  console.log("rebase tEST3");
 };
 </script>
