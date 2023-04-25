@@ -23,5 +23,6 @@ const updateName = () => {
     name: "名称被修改了,nameLength也随之改变了",
   });
   console.log("rebase tEST1");
+  console.log("rebase tEST2");
 };
 </script>
